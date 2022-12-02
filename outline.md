@@ -29,3 +29,17 @@ home :
 
 
 login :
+
+- frontend template
+- virtualenv :
+    - create
+    - activate [Scripts\activate]
+    - pip install 
+    - deactivate
+
+- upload project on github
+
+- url : path
+- view : logic
+- models : db
+- templates : frontend
