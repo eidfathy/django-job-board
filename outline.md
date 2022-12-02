@@ -1,5 +1,5 @@
 Job :
-    - tite
+    - title
     - location
     - job type
     - description
