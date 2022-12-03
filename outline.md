@@ -43,3 +43,9 @@ login :
 - view : logic
 - models : db
 - templates : frontend
+
+Relations :
+    - One to many relationships  [ user - posts ]   Foreginkey
+    - Many to many relationships [ user - groups ]  
+    - One to one relationships   [ user - profile ]
+
