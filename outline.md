@@ -49,3 +49,6 @@ Relations :
     - Many to many relationships [ user - groups ]  
     - One to one relationships   [ user - profile ]
 
+
+ststic filles :[ frontend ] images , css , javascript 
+media filles : [ upload ] images , 
