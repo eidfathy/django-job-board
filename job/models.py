@@ -1,5 +1,7 @@
+from collections import UserDict
 from django.db import models
 from django.utils.text import slugify
+from django.contrib.auth.models import User
 
 # Create your models here.
 
@@ -25,6 +27,7 @@ def image_up(instance,filename):
 
 
 class Job(models.Model):   # table
+    owner = models.ForeignKey(User, related_name='job_owner', on_delete=models.CASCADE)
     title = models.CharField(max_length=100)  # column
     # location 
     job_type = models.CharField(max_length=15, choices=JOB_TYPE)
@@ -64,3 +67,5 @@ class Apply(models.Model):
     
     def __str__(self) -> str:
         return self.name 
+    
+    
