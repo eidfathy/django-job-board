@@ -31,7 +31,9 @@
                                     <li>Phone: <span>{{profile.phone_number}}</span></li>
                                     <li>Address: <span>{{profile.city}}</span></li>
                                 </ul>
-                                <button class="boxed-btn3 w-100" type="submit">Edit Profile</button>
+                            </div>
+                            <div class="p-5">
+                                <a class="boxed-btn3 w-100" href="{% url 'accounts:profile_edit' %}">Edit Profile</a>
                             </div>
                         </div>
                         <div class="share_wrap d-flex">
